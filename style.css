@@ -1,0 +1,66 @@
+/*style.css*/
+
+/*
+
+"StAuth10244: I Utsavkumar Patel, 000820474 certify that this material is my original work.
+                  No other person's work has been used without due acknowledgement. 
+                  I have not made my work available to anyone else."
+
+*/
+
+body {
+  background-image: url(images/dice.jpg);
+  color: rgb(7, 7, 7);
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bolder;
+  color: rgb(30, 25, 88);
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-container {
+  background-color: #2196f3;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.dice {
+  border: 3px solid rgb(248, 248, 248);
+  background-color: rgb(22, 23, 24);
+  max-width: 75px;
+  padding: 15px 0;
+  margin: 10px;
+  color: whitesmoke;
+  min-height: 75px;
+  min-width: 75px;
+  max-height: 75px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buttons {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.btn-md {
+  height: 100px;
+  width: 100%;
+}
+
+.buttons img:hover {
+  filter: brightness(60%);
+}
