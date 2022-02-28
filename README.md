@@ -11,7 +11,7 @@ Your solution must be built using ReactJS in the expected ways using components,
 
 Your solution must incorporate a dice component that is given its number to display via a prop. This component should not have any state. You should have at least one other component in your solution as well.
 
-Use CSS to make the numbers, labels, buttons and dice appear attractive and professional.
+Used CSS to make the numbers, labels, buttons and dice appear attractive and professional.
 
 # Output (Screenshot)
 <img width="960" alt="Rolling Dice Web App" src="https://user-images.githubusercontent.com/71225073/155922432-03ca48d7-5007-4a6f-8364-a37f2856d877.PNG">
